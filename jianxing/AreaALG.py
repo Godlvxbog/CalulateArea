@@ -26,26 +26,43 @@ class Line:
      def sayHello(self,i):
          print "直线方程 y{i}：y{i} = {K} * x + {B} \n".format(i = i,K = self.K,B =self.B),
 
+################# 交互 #################
+
+SUIWEI =float(raw_input("请输入水位的高度【数字】："))
+
+POINT_A_X =float(raw_input("请输入POINT_A_X【数字】："))
+POINT_A_Y =float(raw_input("请输入POINT_A_Y【数字】："))
+
+POINT_P_X =float(raw_input("请输入POINT_P_X【数字】："))
+POINT_P_Y =float(raw_input("请输入POINT_P_Y【数字】："))
+
+POINT_B_X =float(raw_input("请输入POINT_B_X【数字】："))
+POINT_B_Y =float(raw_input("请输入POINT_B_Y【数字】："))
+
+POINT_C_X =float(raw_input("请输入POINT_C_X【数字】："))
+POINT_C_Y =float(raw_input("请输入POINT_C_Y【数字】："))
+
+R1 =float(raw_input("请输入R1【数字】："))
+R2 =float(raw_input("请输入R2【数字】："))
+R3 =float(raw_input("请输入R3【数字】："))
+R4 =float(raw_input("请输入R4【数字】："))
 
 ################# 初始化 #################
-POINT_A = Point(24,46)
-POINT_B = Point(24,27)
-POINT_C = Point(5.6,21)
-POINT_P = Point(24,43)
+POINT_A = Point(POINT_A_X,POINT_A_Y)
+POINT_P = Point(POINT_P_X,POINT_P_Y)
+POINT_B = Point(POINT_B_X,POINT_B_Y)
+POINT_C = Point(POINT_C_X,POINT_C_Y)
 
-R1 = 2
-R2 = 15
-R3 = 3
-R4 = 3
+# R1 = 2
+# R2 = 15
+# R3 = 3
+# R4 = 3
 
 CIRCLE_1 = Circle(0,3,R1)
 CIRCLE_4 = Circle(21,43,R4)
-SUIWEI = 20
-R1 = 2
-################# 交互 #################
-#
-# SUIWEI =float(raw_input("请输入水位的高度【数字】："))
-# R1 =float(raw_input("请输入R1【数字】："))
+# SUIWEI = 20
+# R1 = 2
+
 
 ################# 切点M #################
 def qiedian(m):
