@@ -11,6 +11,26 @@ from contract import Point
 from contract import Circle
 from contract import Line
 
+# 下面是测试数据
+# R1 = 2
+# R2 = 15
+# R3 = 3
+# R4 = 3
+#
+# POINT_A = Point(24,46)
+# POINT_P = Point(24,43)
+# POINT_B = Point(24,27)
+# POINT_C = Point(5.6,21)
+#
+#
+# CIRCLE_1 = Circle(0,3,R1)
+# CIRCLE_4 = Circle(21,43,R4)
+
+
+
+
+
+
 
 
 ################# 客户端容器 #################
